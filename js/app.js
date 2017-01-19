@@ -7,6 +7,11 @@ app.config( function ($routeProvider) {
       templateUrl: 'views/order.html' ,
 	  controller: 'HomeController' 
     }) 
+	.when('/', { 
+      
+      templateUrl: 'views/worker.html' ,
+	  controller: 'WorkerController' 
+    }) 
     .otherwise({ 
       redirectTo: '/' 
     }); 
