@@ -1,6 +1,6 @@
 var app = angular.module('myApp', ['ngMaterial', 'ngMessages', 'material.svgAssetsCache', 'ngRoute']);
 
-app.config( function ($routeProvider) { 
+app.config(['$routeProvider', function ($routeProvider) { 
   $routeProvider 
     .when('/', { 
       templateUrl: 'views/order.html',
@@ -17,4 +17,4 @@ app.config( function ($routeProvider) {
     .otherwise({ 
       redirectTo: '/worker' 
     }); 
-});
+}]);
