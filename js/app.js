@@ -3,15 +3,15 @@ var app = angular.module('myApp', ['ngMaterial', 'ngMessages', 'material.svgAsse
 app.config( function ($routeProvider) { 
   $routeProvider 
     .when('/', { 
-      templateUrl: 'views/order.html' ,
+      templateUrl: 'views/order.html',
       controller: 'HomeController' 
     }) 
     .when('/order', { 
-      templateUrl: 'views/order.html' ,
+      templateUrl: 'views/order.html',
       controller: 'HomeController' 
     }) 
     .when('/worker', { 
-      templateUrl: 'views/worker.html' ,
+      templateUrl: 'views/worker.html',
       controller: 'WorkerController' 
     }) 
     .otherwise({ 
