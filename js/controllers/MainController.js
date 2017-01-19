@@ -15,7 +15,7 @@ app.controller('MainController', ['$scope', '$mdDialog', '$timeout', '$mdSidenav
     	name: 'The Book of Trees', 
     	price: 19, 
     	pubdate: new Date('2014', '03', '08'), 
-    	cover: 'http://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg',
+    	cover: 'https://hostinger.s3.amazonaws.com/r/becec6a2554eba5833d1c343db5af9a3/299c4f60077c1d29fef85a58eb97b555.png',
     	likes: 0,
     	dislikes: 0
   	}, 
@@ -23,7 +23,7 @@ app.controller('MainController', ['$scope', '$mdDialog', '$timeout', '$mdSidenav
     	name: 'Program or be Programmed', 
     	price: 8, 
     	pubdate: new Date('2013', '08', '01'), 
-    	cover: 'http://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg',
+    	cover: 'https://hostinger.s3.amazonaws.com/r/becec6a2554eba5833d1c343db5af9a3/299c4f60077c1d29fef85a58eb97b555.png',
     	likes: 0,
     	dislikes: 0
   	}, 
@@ -31,7 +31,7 @@ app.controller('MainController', ['$scope', '$mdDialog', '$timeout', '$mdSidenav
     	name: 'Harry Potter & The Prisoner of Azkaban', 
     	price: 11.99, 
     	pubdate: new Date('1999', '07', '08'), 
-    	cover: 'http://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg',
+    	cover: 'https://hostinger.s3.amazonaws.com/r/becec6a2554eba5833d1c343db5af9a3/299c4f60077c1d29fef85a58eb97b555.png',
     	likes: 0,
     	dislikes: 0 
   	}, 
@@ -39,7 +39,7 @@ app.controller('MainController', ['$scope', '$mdDialog', '$timeout', '$mdSidenav
     	name: 'Ready Player One', 
     	price: 7.99, 
     	pubdate: new Date('2011', '08', '16'), 
-    	cover: 'http://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg',
+    	cover: 'https://hostinger.s3.amazonaws.com/r/becec6a2554eba5833d1c343db5af9a3/299c4f60077c1d29fef85a58eb97b555.png',
     	likes: 0,
     	dislikes: 0 
   	}
