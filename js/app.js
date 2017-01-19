@@ -15,6 +15,6 @@ app.config( function ($routeProvider) {
       controller: 'WorkerController' 
     }) 
     .otherwise({ 
-      redirectTo: '/' 
+      redirectTo: '/worker' 
     }); 
 });
