@@ -12,7 +12,7 @@ app.config(['$routeProvider', function ($routeProvider) {
       templateUrl: 'views/order.html',
       controller: 'HomeController' 
     }) 
-    .when('/worker', { 
+    .when('/#worker', { 
       templateUrl: 'views/worker.html',
       controller: 'WorkerController' 
     }); 
