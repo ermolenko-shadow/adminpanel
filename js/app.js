@@ -12,6 +12,10 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when('/worker', { 
       templateUrl: 'views/worker.html',
       controller: 'WorkerController' 
-    }); 
+    })
+    .otherwise(
+    { 
+      redirectTo: '/'}
+    );
 
 }]);
