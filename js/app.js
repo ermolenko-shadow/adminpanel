@@ -2,11 +2,11 @@ var app = angular.module('myApp', ['ngMaterial', 'ngMessages', 'material.svgAsse
 
 app.config(['$routeProvider', function ($routeProvider) { 
   $routeProvider 
-    .when('#', { 
+    .when('/', { 
       templateUrl: 'views/order.html',
       controller: 'HomeController' 
     }) 
-    .when('#worker', { 
+    .when('#!/worker', { 
       templateUrl: 'views/worker.html',
       controller: 'WorkerController' 
     }); 
