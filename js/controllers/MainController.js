@@ -182,7 +182,7 @@ app.controller('MainController', ['$scope', '$mdDialog', '$timeout', '$mdSidenav
     }
 	
     $scope.go = function ( path ) {
-	 $location.path( path );
+	    window.location = "#" + path;
     };							  
 
 }]);
