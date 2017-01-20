@@ -1,6 +1,8 @@
 var app = angular.module('myApp', ['ngMaterial', 'ngMessages', 'material.svgAssetsCache', 'ngRoute']);
 
 app.config(['$routeProvider', function ($routeProvider) { 
+  $routeProvider.hashPrefix('');
+  
   $routeProvider 
     .when('/', { 
       templateUrl: 'views/order.html',
