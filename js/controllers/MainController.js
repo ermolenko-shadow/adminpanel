@@ -180,6 +180,9 @@ app.controller('MainController', ['$scope', '$mdDialog', '$timeout', '$mdSidenav
         $mdSidenav(componentId).toggle();
       }
     }
-							  
-  
+	
+    $scope.go = function ( path ) {
+	 $location.path( path );
+    };							  
+
 }]);
