@@ -2,6 +2,10 @@ var app = angular.module('myApp', ['ngMaterial', 'ngMessages', 'material.svgAsse
 
 app.config(['$routeProvider', function ($routeProvider) { 
  
+ $routeProvider.html5Mode({
+       enabled: true,
+       requireBase: false
+});
   
   $routeProvider 
     .when('/', { 
