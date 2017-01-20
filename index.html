@@ -15,9 +15,9 @@
     
     <div ng-controller="MainController" ng-cloak>
 	
-	<nav><a href="#order">Заказ</a>|<a href="#worker">Ответить</a></nav>
 	
-	<section layout="row" flex>
+	
+<section layout="row" flex>
 
     <md-sidenav class="md-sidenav-left" md-component-id="left"
                 md-disable-backdrop md-whiteframe="4">
@@ -30,9 +30,16 @@
       </md-toolbar>
 
       <md-content layout-margin>
-        <p>
-          This sidenav is not showing any backdrop, where users can click on it, to close the sidenav.
-        </p>
+	      
+    <md-subheader class="md-no-sticky">Main</md-subheader>
+       <md-list-item class="secondary-button-padding" ng-click="">
+       <p href="#order">Order</p>
+        </md-list-item>
+
+      <md-divider></md-divider>
+	<md-list-item class="secondary-button-padding" ng-click="">
+            <p href="#worker">Worker</p>
+        </md-list-item>
        
       </md-content>
 
