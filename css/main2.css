@@ -297,3 +297,13 @@ h2{
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
+
+.sidebar-footer {
+    bottom: 0;
+    clear: both;
+    display: block;
+    padding: 5px 0 0;
+    position: fixed;
+    background: #2A3F54;
+    z-index: 999;
+}
