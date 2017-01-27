@@ -183,6 +183,11 @@ app.controller('MainController', ['$scope', '$mdDialog', '$timeout', '$mdSidenav
 	
     $scope.go = function ( path ) {
 	    window.location = "#" + path;
-    };							  
+    };		
+
+
+	 $scope.image = [{
+	    src: 'img/img.jpg',
+	  }];	
 
 }]);
