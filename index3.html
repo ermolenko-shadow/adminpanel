@@ -17,7 +17,7 @@
     <div ng-controller="MainController" ng-cloak>
 	
 	<div layout="row" style="background: #2A3F54;">
-  <div flex="20">
+  <div flex="20" style="position:relative;">
   
   <div class="clearfix">
 	  <div class="profile_pic">
@@ -47,6 +47,9 @@
 		      </md-list-item>
 	      
        
+	   		    <md-list-item class="secondary-button-padding sidebar-footer" ng-click="go('/profile')"  style="position : fixed;" >
+			 <p href="#order" style="color: white;">Log out</p>
+		      </md-list-item>
       </md-content>
 	  
   </div>
