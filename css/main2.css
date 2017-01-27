@@ -233,3 +233,67 @@
   /* IE 10+ */
   user-select: none;
   /* Likely future */ }
+
+.img-circle.profile_img {
+    width: 70%;
+    background: #fff;
+    margin-left: 15%;
+    z-index: 1000;
+    position: inherit;
+    margin-top: 20px;
+    border: 1px solid rgba(52,73,94,.44);
+    padding: 4px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+  
+.profile_pic {
+    width: 35%;
+    float: left;
+}
+
+.profile_info {
+    padding: 25px 10px 10px;
+    width: 65%;
+    float: left;
+}
+
+.profile_info span {
+    font-size: 13px;
+    line-height: 30px;
+    color: #BAB8B8;
+}
+
+.profile_info h2 {
+    font-size: 16px;
+    color: #ECF0F1;
+    margin: 0;
+    font-weight: 300;
+}
+
+.clearfix:after, form:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+	
+	display: block;
+    font-size: 20px;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
