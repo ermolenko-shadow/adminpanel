@@ -1,4 +1,4 @@
-app.controller('MainController', ['$scope', '$mdDialog', '$timeout', '$mdSidenav', function($scope, $mdDialog, $timeout, $mdSidenav ) { 
+app.controller('MainController', ['$scope', '$mdDialog', '$timeout', '$mdSidenav', '$http', function($scope, $mdDialog, $timeout, $mdSidenav, $http ) { 
   $scope.title = 'Top Sellers in Books1'; 
   $scope.promo = 'Top Sellers in Books'; 
   
