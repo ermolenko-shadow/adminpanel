@@ -4,21 +4,21 @@
 <p>{{message}}</p>
 <p>{{orders}}</p>
  <p>{{orders.city_name}}</p>   
-   <div ng-repeat="item in orders.days">
+   <div ng-repeat="order in orders.days">
               <div>
                 <div>
-                  <p>{{ day.datetime | date }}</p>
+                  <p>{{ order.datetime | date }}</p>
                 </div>
                 <div>
-                  <img ng-src="{{ day.icon }}">
+                  <img ng-src="{{ order.icon }}">
                 </div>
                 <div>
                 </div>
                 <div>
-                  <p>{{ day.high }}&deg;</p>
+                  <p>{{ order.high }}&deg;</p>
                 </div>
                 <div>
-                  <p>{{ day.low }}&deg;</p>
+                  <p>{{ order.low }}&deg;</p>
                 </div>
               </div>
        
